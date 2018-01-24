@@ -24,8 +24,8 @@ else:
 
 ih = input("请输入身高(m)：")
 iw = input("请输入体重(kg)：")
-height = int(ih)
-weight = int(iw)
+height = float(ih)
+weight = float(iw)
 bmi = weight / (height * height)
 if bmi < 18.5:
     print("过轻")
