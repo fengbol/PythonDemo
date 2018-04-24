@@ -4,7 +4,8 @@ f = 1.1e9 #1.23 * 10的9次方
 #另外Python里的整数和浮点数没有大小限制
 
 hello = "I\'m \"Kidding\"!" #\转义符，I'm "Kidding"!
-#也可以写成 hello=r"I'm "Kidding"!"
+#也可以写成 
+hello1 = r"I'm 'Kidding'!"
 #另外"和'好像没什么区别，c#里用"代表字符串，'代表字符，所以我以后基本上会用"包含字符串
 
 #多行文字 我觉得很不方便，尽量不要这么用吧
@@ -17,7 +18,7 @@ print(True and False)
 print(True or False)
 print(not True)
 
-#空值 None类似于C# null
+#空值 None类似于C# null，但是要注意None不会输出的
 
 #赋值，这是Python和C#最大的区别，Python里的变量类型是不固定的，即动态语言
 #C#里有var关键字这样类似动态语言的写法，但var其实只是方便写法，类型还是固定的。
